@@ -14,16 +14,17 @@ npx ts-node
 
 타입이정
 
-,,,bash
+```bash
 let name:string;
 let age:number;
-,,,
+```
+
 'name'이라는 변수는 스트링만 입력이 가능하고
 'age'라는 변수는 숫자만 입력이 가능하다.
 
-,,,bash
+```bash
 let human:{
     name:string;
     age:number;
 }
-,,,
+```
